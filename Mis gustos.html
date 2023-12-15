@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon/henryicon.png" type="image/x-icon">
+    <title>Henry Curico</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Henry Eduardo Curico Saldaña</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="index.html">Principal</a></li>
+                <li><a class="active" href="Mis gustos.html">Mis gustos</a></li>
+                <li><a href="Mi musica.html">Mi musica</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+    <h2>Mis gustos</h2>
+    <hr>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: rgb(58, 118, 136);">
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <th></th>
+            <th>Me gusta</th>
+            <th>No me gusta</th>
+
+            <tr>
+                <td>Alimento</td>
+                <td>Carne, pollo</td>
+                <td>Cebolla, ajo</td>
+            </tr>
+            <tr>
+                <td>Juegos</td>
+                <td>Xbox, programar</td>
+                <td>Perder mi tiempo</td>
+            </tr>
+            <tr>
+                <td>Instrumentos</td>
+                <td>Guitara, bateria</td>
+                <td>Violin</td>
+            </tr>
+            <tr>
+                <td>Gimnasio</td>
+                <td>Hacer pierna y hombro</td>
+                <td>Hacer biceps</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
